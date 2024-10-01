@@ -74,7 +74,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
           break;
         case '/':
           if (num2 == 0) {
-            throw Exception('Cannot divide by zero');
+            throw Exception('Not divisable by zero');
           }
           result = num1 / num2;
           break;
@@ -233,7 +233,7 @@ class CalculatorButton extends StatelessWidget {
     return Expanded(
       child: Ink(
         decoration: BoxDecoration(
-          color: Colors.grey[300],
+          color: const Color.fromARGB(255, 37, 7, 7),
           borderRadius: BorderRadius.circular(10),
         ),
         child: InkWell(
