@@ -233,7 +233,7 @@ class CalculatorButton extends StatelessWidget {
     return Expanded(
       child: Ink(
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 37, 7, 7),
+          color: const Color.fromARGB(255, 205, 198, 198),
           borderRadius: BorderRadius.circular(10),
         ),
         child: InkWell(
